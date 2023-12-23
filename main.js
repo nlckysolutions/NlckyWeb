@@ -1,3 +1,4 @@
 function test() {
-    window.alert("HI.")
+    var cookievalue = getElementById('cookievalue').value
+    document.cookie("nlckycookie = " + cookievalue)
 }
